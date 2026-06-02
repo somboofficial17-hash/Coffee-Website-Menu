@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombo-website</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Linking font awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!--link Swiper CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <h2 class="logo-text">
+                 <a href="#" class="nav-logo">☕Coffee</a>
+            </h2>
+           <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#About" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Testimonnials" class="nav-link">Testimonnials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+           </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section-->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Coffe</h2>
+                    <h3 class="subtitle">Make your day great 
+                        with our special coffee!</h3>
+                    <p class="description">Eelcome to our
+                         coffe paradise, where every bean 
+                        tells a story and every cap sparks joy.</p>
+                        
+                        <div class="buttons">
+                            <a href="#" class="button order-now">Oder Now</a>
+                            <a href="#" class="button contact-us">Contact Us</a>
+                        </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="image/coffee-hero-section.png" alt="hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!--About section-->
+        <section class="about-section" id="About">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="image/about-image.jpg" alt="About"
+                     class="about-image">
+                </div>
+                <div class="about-detils">
+                    <h2 class="section-title">
+                        About Us
+                    </h2>
+                    <p class="text">
+                        At Coffee House in Berndorf, Germany, We pride ourselves on being a go-to destination for coffee lovers and
+                        conversation seekers alike. We're deicated to provideing an 
+                        exceptional coffee experience in a cozy and inviting atmoshere,
+                        where guests can relax, unwind, and enjoy their  time in comfort.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="" class="social-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="" class="social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Menu section-->
+        <section class="menu-section" id="Menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="image/hot-beverages.png" alt="Hot Beverages" 
+                        class="menu-image">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">
+                            wide range of Steaming hot coffee to make you 
+                            fresh and light.
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="image/cold-beverages.png" alt="Cold Beverages" 
+                        class="menu-image">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="text">
+                            Creamy and frothy cold coffee to make you cool.
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="image/refreshment.png" alt="Refreshment" 
+                        class="menu-image">
+                        <h3 class="name">Refreshment</h3>
+                        <p class="text">
+                            Fruit and icy refreshing drink to make feel refresh.
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="image/special-combo.png" alt="Special Combos" 
+                        class="menu-image">
+                        <h3 class="name">Special Combos</h3>
+                        <p class="text">
+                            Your favorite eating and dringking combations.
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="image/desserts.png" alt="Desser" 
+                        class="menu-image">
+                        <h1 class="name">Desser</h1>
+                        <p class="text">
+                            Satiate your palate and take you on a culinary treat.
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="image/burger-frenchfries.png" alt="Burger & French Fries" 
+                        class="menu-image">
+                        <h3 class="name">Burger & French Fries</h3>
+                        <p class="text">
+                            Quick bites to satisfy your small size hunger.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <!--Testimonials section-->
+        <section class="testimonials-section" id="Testimonnials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrappe">
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sarag Johnson</h3>
+                                <i class="feedback">Loved the French roast. Perfectly 
+                                    balanced and rich. will order again!</i>   
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">Great espresso blend! Smooth and bold
+                                    flavor. Fast shipping too!
+                                </i>   
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user-3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Michael Brown</h3>
+                                <i class="feedback">Fantastic mocha flavor. Fresh and 
+                                    aromatic. Quick Shpping!</i>   
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user-4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Emily Harris</h3>
+                                <i class="feedback">"Excellent quality fresh beans and
+                                    quick delivery. Highly recommend."</i>   
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user-5.jpg" alt="User" class="user-image">
+                                <h3 class="name">anthony Thompson</h3>
+                                <i class="feedback">"Best decaf I've tried! Smooth and 
+                                    flavorfull. Arrived promptly"</i>   
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination  swiper-slide-button"></div>
+                        <div class="swiper-button-prev swiper-slide-button"></div>
+                        <div class="swiper-button-next swiper-slide-button"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Gallery section-->
+        <section class="gallery-section" id="Gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gellery-item">
+                        <img src="image/gallery-1.jpg" alt="Gallery"
+                         class="gallery-image">
+                    </li>
+                    <li class="gellery-item">
+                        <img src="image/gallery-2.jpg" alt="Gallery"
+                         class="gallery-image">
+                    </li>
+                    <li class="gellery-item">
+                        <img src="image/gallery-3.jpg" alt="Gallery"
+                         class="gallery-image">
+                    </li>
+                    <li class="gellery-item">
+                        <img src="image/gallery-4.jpg" alt="Gallery"
+                         class="gallery-image">
+                    </li>
+                    <li class="gellery-item">
+                        <img src="image/gallery-5.jpg" alt="Gallery"
+                         class="gallery-image">
+                    </li>
+                    <li class="gellery-item">
+                        <img src="image/gallery-6.jpg" alt="Gallery"
+                         class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Conctact section--> 
+        <section class="contact-section" id="Contact">
+            <h2 class="section-title">
+                Contact Us
+            </h2>
+            <div class="setion-contect">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                       <i class="fa-solid fa-location-crosshairs"></i>
+                       <p>
+                        123 Phnom Penh, Wikderness, CA 680734
+                       </p>
+                    </li>
+                    <li class="contact-info">
+                       <i class="fa-solid fa-phone"></i>
+                       <p>
+                        (855) 973-786-2356
+                       </p>
+                    </li>
+                    <li class="contact-info">
+                       <i class="fa-regular fa-clock"></i>
+                       <p>
+                        monday - Friday: 9:00 AM - 5:00 PM 
+                       </p>
+                    </li>
+                    <li class="contact-info">
+                       <i class="fa-regular fa-clock"></i>
+                       <p>
+                        Saturday: 10:00 AM - 3:00 PM 
+                       </p>
+                    </li>
+                    <li class="contact-info">
+                       <i class="fa-regular fa-clock"></i>
+                       <p>
+                        Sunday: Closed
+                       </p>
+                    </li>
+                    <li class="contact-info">
+                       <i class="fa-solid fa-globe"></i>
+                       <p>
+                        www.sombowebsinal.com
+                       </p>
+                    </li>
+                </ul>
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your Name" class="form-input" required>
+                    <input type="email" placeholder="Your Email" class="form-input" required>
+                    <textarea placeholder="Your Message"class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+
+            </div>
+        </section>
+
+        <!--Footer section-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">
+                    @ 2026 Coffee Shop
+                </p>
+                <div class="social-link-list">
+                        <a href="" class="social-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="" class="social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    <p class="policy-text">
+                        <a href="#" class="policy-link">Pricacy Policy</a>
+                        <span class="separator">.</span>
+                        <a href="#" class="policy-link">Refund Policy</a>
+                    </p>
+            </div>
+        </footer>
+    </main>
+
+    <!--Linking Swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!--Link custom script-->
+   <script src="script.js">
+        
+    </script>
+</body> 
+</html>
